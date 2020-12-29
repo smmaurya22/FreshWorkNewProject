@@ -12,7 +12,7 @@ public class InsertKeyValue {
 		String line;
 		try {
 			//file path in our local Database System
-			FileInputStream fin=new FileInputStream("C:\\Users\\Suresh Maurya\\eclipse-workspace\\FreshWork_Project\\output.txt");
+		    FileInputStream fin=new FileInputStream("C:\\Users\\Suresh Maurya\\eclipse-workspace\\FreshWork_Project\\output.txt");
 		    Scanner s=new Scanner(fin);//reading the file using scanner function
 		    while(s.hasNext())//iterating the next line using the while loop 
 		    {
